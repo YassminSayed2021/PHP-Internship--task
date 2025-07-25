@@ -14,11 +14,11 @@ if ($conn->connect_error) {
 ?> */
 
 
-$host = "db4free.net";
+$host = "mysql.railway.internal";
 $port = 3306;
-$username = "yaso22";
-$password = "Sergioramos4@"; 
-$database = "form_d";
+$username = "root";
+$password = "GCwKnLzuRSahkzuADeEeFgTZcuTInMDo"; 
+$database = "railway";
 
 $conn = new mysqli($host, $username, $password, $database, $port);
 
