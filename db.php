@@ -18,7 +18,7 @@ $host = "db4free.net";
 $port = 3306;
 $username = "yasmin";
 $password = "EjAPj6bdC&iZVNG"; 
-$database = "myform_db";
+$database = "form_db";
 
 $conn = new mysqli($host, $username, $password, $database, $port);
 
