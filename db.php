@@ -16,9 +16,9 @@ if ($conn->connect_error) {
 
 $host = "db4free.net";
 $port = 3306;
-$username = "yassmin";
-$password = "EjAPj6bdC&iZVNG"; 
-$database = "myform_db";
+$username = "yaso22";
+$password = "Sergioramos4@"; 
+$database = "form_d";
 
 $conn = new mysqli($host, $username, $password, $database, $port);
 
